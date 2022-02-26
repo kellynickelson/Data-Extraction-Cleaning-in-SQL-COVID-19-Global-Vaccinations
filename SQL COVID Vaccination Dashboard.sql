@@ -1,3 +1,8 @@
+/*
+SQL Data Extraction & Cleaning: COVID-19 Global Vaccinations 
+Skills used: Joins, CTE's, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
+
 -- Gloabl Daily New Vaccinations Graph
 --- Shows the total number of new vaciations administered each day around the world. 
 Select dea.location, dea.date,  vac.new_vaccinations
